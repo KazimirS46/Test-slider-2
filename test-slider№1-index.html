@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Тестовый слайдер №1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Тестовый слайдер №1</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/test-slider№1-style.css">
+</head>
+<body>
+	<section class="gallery a">
+		<div class="gallery__wrapper container b">
+			<h2 class="gallery__title c">Питомцы</h2>
+			<p class="gallery__lead c">Все представители нашего питомника имеют ветеринарный паспорт с отметками о прививках и документ с родословной</p>
+			<ul class="gallery__list c">
+				<li class="gallery__item d">
+					<a class="gallery__tab gallery__tab--active e" href="#gallery__tab-content-1">Коты</a>
+				</li>
+				<li class="gallery__item d">
+					<a class="gallery__tab e" href="#gallery__tab-content-2">Кошки</a>
+				</li>
+				<li class="gallery__item d">
+					<a class="gallery__tab e" href="#gallery__tab-content-3">Котята</a>
+				</li>
+			</ul>
+			<div class="gallery__tab-content-wrapper c">
+				<div class="gallery__tab-content show slider d" id="gallery__tab-content-1">
+					<div class="gallery__slider slider__list slider__container e">
+						<div class="cats slider__wrapper f">
+							<div class="cats__item cats__item--top slider__slide g">
+								<picture>
+									<img src="./img/png/gallery-cat-top-494x227.png" class="cats__item-img" width="494" height="227" alt="Кошачий хуй 1" class="h">
+								</picture>
+							</div>
+							<div class="cats__item cats__item--bottom slider__slide g">
+								<picture>
+									<img src="./img/png/gallery-cat-bottom-494x227.png" class="cats__item-img" width="494" height="227" alt="Кошачий хуй 2" class="h">
+								</picture>
+							</div>
+							<div class="cats__item cats__item--large slider__slide g">
+								<picture>
+									<img src="./img/png/gallery-cat-large-474x490.png" class="cats__item-img" width="494" height="490" alt="Кошачий хуй 3" class="h">
+								</picture>
+							</div>
+						</div>
+					</div>
+					<button class="slider__button slider__button--prev e" type="button">
+						<span class="visually-hidden">Предыдущий слайд</span>
+					</button>
+					<button class="slider__button slider__button--next e" type="button">
+						<span class="visually-hidden">Следующий слайд</span>
+					</button>
+				</div>
+				<div class="gallery__btn-wrapper d">
+					<a href="#!" class="gallery__btn e">Смотреть больше</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
